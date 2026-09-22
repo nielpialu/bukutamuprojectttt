@@ -1,6 +1,5 @@
 "use client";
 
-import { Bell } from "lucide-react";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 
 export function SiteHeader() {
@@ -16,8 +15,6 @@ export function SiteHeader() {
         </h1>
 
       </div>
-
-      <Bell className="size-5 cursor-pointer" />
 
     </header>
   );

@@ -15,7 +15,7 @@ export default async function DashboardLayout({
 
   return (
     <SidebarProvider>
-      {/* Jika ke depannya kamu ingin menampilkan nama/role admin, kamu bisa mengirim props: user={session} */}
+      
       <AppSidebar />
 
       <SidebarInset>
